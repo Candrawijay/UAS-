@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uappp.SignUpController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Android%20Large%20-%203%20(1).png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tfNama" layoutX="30.0" layoutY="419.0" prefHeight="44.0" prefWidth="299.0" promptText="Nama" />
+      <TextField fx:id="tfUserid" layoutX="30.0" layoutY="503.0" prefHeight="44.0" prefWidth="299.0" promptText="User ID" />
+      <PasswordField fx:id="tfPass" layoutX="29.0" layoutY="587.0" prefHeight="44.0" prefWidth="299.0" promptText="Password" />
+      <Button fx:id="btnSignUp" layoutX="137.0" layoutY="671.0" mnemonicParsing="false" onAction="#btnSignUp" opacity="0.0" prefHeight="44.0" prefWidth="83.0" text="Button" />
+   </children>
+</AnchorPane>
