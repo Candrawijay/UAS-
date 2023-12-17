@@ -19,7 +19,7 @@ public class Uappp extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("jadwal.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("awal.fxml"));
         
         Scene scene = new Scene(root);
         
