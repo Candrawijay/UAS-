@@ -57,7 +57,7 @@ public class EditTugasController{
         }else{
             JOptionPane.showMessageDialog(null,"Status Diubah");
             TugasController tgs = new TugasController();
-            String query = "update tugas set stts = '" + stts + "' where id = '" + id + "'";
+            String query = "update tugas set stts = '" + stts + "' where idTugas = '" + id + "'";
             update(query);
             FXMLLoader loader = new FXMLLoader(getClass().getResource("tugas.fxml"));
             Parent root = loader.load();
